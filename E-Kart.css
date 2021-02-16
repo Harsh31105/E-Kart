@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Satisfy', cursive;
+}
+
+body {
+    background-color: orange;
+}
+
+header {
+    display: flex;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav .logo img {
+    width: 100px;
+}
+
+nav .kart img {
+    width: 100px;
+}
+
+#cart {
+    display: none;
+}
+
+.sub-menu:hover #cart {
+    display: block;
+    position: absolute;
+    min-height: 400px;
+    min-width: 300px;
+    background-color: white;
+}
+
+table {
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    flex-direction: column;
+}
+
+table thead {
+    display: flex;
+    width: 100%;
+    background-color: yellow;
+    justify-content: space-around;
+}
+
+table thead th {
+    margin-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.course-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.course-item {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-flow: wrap;
+}
+
+.course-card {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.course-card img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.info-card {
+    padding: 10px;
+}
+
+.info-card h4 {
+    color: teal;
+    font-size: 20px;
+}
+
+.rating {
+    color: gold;
+}
+
+.pricing {
+    margin-bottom: 10px;
+}
+
+.mrp {
+    text-decoration: line-through black;
+    color: red;
+}
+
+.discounted {
+    float: right;
+    font-size: 20px;
+}
+
+.add-cart {
+    text-decoration: none;
+    display: block;
+    background-color: green;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+tbody tr {
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    width: 100%;
+    background-color: red;
+}

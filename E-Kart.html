@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="E-Kart.css">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="E-Kart.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Kart</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="/Logo.png">
+            </div>
+            <div class="kart">
+                <ul>
+                    <li class="sub-menu">
+                        <img src="/Cart.png">
+                        <p>0</p>
+                        <div class="shoppingCart" id="cart">
+                            <table id="list-cart">
+                                <thead>
+                                    <th>Image</th>
+                                    <th>Name</th>
+                                    <th>Quantity</th>
+                                    <th>Price</th>
+                                    <th></th>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+
+                            <a id="empty-cart" href="#">EMPTY CART</a>
+
+                        </div>
+                    </li>
+                </ul>
+
+
+            </div>
+        </nav>
+    </header>
+    <div id="list-courses">
+        <div class="course-container">
+            <div class="course-item">
+                <div class="course-card">
+                    <img src="/Course-1.jpeg">
+                    <div class="info-card">
+                        <h4>HTML,CSS,JS for Beginners</h4>
+                        <p class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </p>
+                        <p class="pricing">
+                            <span class="mrp">
+                                ₹10,500
+                            </span>
+                            <span class="discounted">
+                                ₹8,500
+                            </span>
+                        </p>
+                        <a href="#" class="add-cart" data-id="1">Add To Cart</a>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <img src="/Course-2.jpeg">
+                    <div class="info-card">
+                        <h4>Cooking Classes</h4>
+                        <p class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </p>
+                        <p class="pricing">
+                            <span class="mrp">
+                                ₹9,670
+                            </span>
+                            <span class="discounted">
+                                ₹7,499
+                            </span>
+                        </p>
+                        <a href="#" class="add-cart" data-id="2">Add To Cart</a>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <img src="/Course-3.jpeg">
+                    <div class="info-card">
+                        <h4>Guitar Lessons</h4>
+                        <p class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </p>
+                        <p class="pricing">
+                            <span class="mrp">
+                                ₹11,999
+                            </span>
+                            <span class="discounted">
+                                ₹8,549
+                            </span>
+                        </p>
+                        <a href="#" class="add-cart" data-id="3">Add To Cart</a>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <img src="/Course-4.jpeg">
+                    <div class="info-card">
+                        <h4>Home Remedies</h4>
+                        <p class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </p>
+                        <p class="pricing">
+                            <span class="mrp">
+                                ₹10,000
+                            </span>
+                            <span class="discounted">
+                                ₹7,800
+                            </span>
+                        </p>
+                        <a href="#" class="add-cart" data-id="4">Add To Cart</a>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <img src="/Course-5.jpeg">
+                    <div class="info-card">
+                        <h4>Gardening Class</h4>
+                        <p class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </p>
+                        <p class="pricing">
+                            <span class="mrp">
+                                ₹9,000
+                            </span>
+                            <span class="discounted">
+                                ₹7,200
+                            </span>
+                        </p>
+                        <a href="#" class="add-cart" data-id="5">Add To Cart</a>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <img src="/Course-1.jpeg">
+                    <div class="info-card">
+                        <h4>HTML,CSS,JS for Beginners</h4>
+                        <p class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </p>
+                        <p class="pricing">
+                            <span class="mrp">
+                                ₹10,500
+                            </span>
+                            <span class="discounted">
+                                ₹8,500
+                            </span>
+                        </p>
+                        <a href="#" class="add-cart" data-id="6">Add To Cart</a>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <img src="/Course-1.jpeg">
+                    <div class="info-card">
+                        <h4>HTML,CSS,JS for Beginners</h4>
+                        <p class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </p>
+                        <p class="pricing">
+                            <span class="mrp">
+                                ₹10,500
+                            </span>
+                            <span class="discounted">
+                                ₹8,500
+                            </span>
+                        </p>
+                        <a href="#" class="add-cart" data-id="7">Add To Cart</a>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <img src="/Course-1.jpeg">
+                    <div class="info-card">
+                        <h4>HTML,CSS,JS for Beginners</h4>
+                        <p class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </p>
+                        <p class="pricing">
+                            <span class="mrp">
+                                ₹10,500
+                            </span>
+                            <span class="discounted">
+                                ₹8,500
+                            </span>
+                        </p>
+                        <a href="#" class="add-cart" data-id="8">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
